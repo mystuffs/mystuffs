@@ -4,7 +4,7 @@
     height: 20;
     top: 0;
     left: 0;
-    background: #279AF1;;
+    background: #279AF1;
     position: fixed;
 }
 
@@ -12,32 +12,36 @@
     display: inline;
     text-align: right;
     width: 100%;
-    margin: 0 0 30px 0; 
-    padding: 0;
+    margin: 1em; 
+    padding: 1em;
 
 }
 
 ul li {
-    text-align: left; 
+    text-align: right; 
     display: inline; 
     margin-right: 0px;
-    background: #4a6c8c ;
+    background: #279AF1 ;
+    padding: 1em;
 }
 
 .side-bar {
     position: fixed;
+    text-align: left;
     width: 20%;
     height: 100%;
     top: 20%;
     left: 0;
     background: #279AF1;;
     position: fixed;
+    padding: 1em;
 }
 
 .side-nav {
-    text-align: right;
+    text-align: left;
     width: 100%;
     margin: 0 0 30px 0; 
     padding: 0;
 
 }
+
