@@ -1,3 +1,8 @@
+html, body {
+    padding: 60px 15px;
+    color: #fff;
+}
+
 .nav-bar {
     position: absolute;
     width: 100%;
@@ -13,7 +18,7 @@
     text-align: right;
     width: 100%;
     margin: 1em; 
-    padding: 1em;
+    padding: 2em;
 
 }
 
@@ -23,6 +28,7 @@ ul li {
     margin-right: 0px;
     background: #279AF1 ;
     padding: 1em;
+    
 }
 
 .side-bar {
