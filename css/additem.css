@@ -11,11 +11,17 @@ button {
 }
 .add-content {
 	display: block;
-	width:30%;
-	padding-left:5em;
-	padding-top:1em;	
-	position:fixed;
-	
+	/* width: calc(100% - 10em); */
+	/* height: calc(100% - 10em); */
+	/* padding-left:5em; */
+	/* padding-top:1em; */
+	/* position:fixed; */
+	/* top: 10em; */
+	/* left: 10em; */
+	box-sizing: border-box;
+	padding: 9em;
+	margin-left: 10em;
+	margin-top: 10em;
 }
 
 .adding {
