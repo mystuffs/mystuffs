@@ -2,7 +2,13 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+button {
+	background-color: #6C6C6C;
+	color: white;
+	padding: 1em;
+	font-size: 1em;
 
+}
 .add-content {
 	display: block;
 	width:30%;
@@ -15,6 +21,7 @@ body {
 .adding {
 	display: block;
 }
+
 h1 {
 	display: block;
 	position: absolute;
