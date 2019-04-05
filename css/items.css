@@ -1,0 +1,23 @@
+.item {
+  padding: 1em;
+  text-align: center;
+  display: flex;
+}
+.name {
+    flex-grow: 1;
+}
+.price {
+    flex-grow: 1;
+}
+.location {
+    flex-grow: 1;
+}
+.condition {
+    flex-grow: 1;
+}
+.category {
+    flex-grow: 1;
+}
+.description {
+    flex-grow: 1;
+}
