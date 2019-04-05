@@ -37,7 +37,7 @@ ul li {
 }
 
 aside {
-    display:grid;
+    
     position: fixed;
     text-align: left;
     width: 20%;
@@ -45,7 +45,7 @@ aside {
     top: 20%;
     left: 0;
     background: #279AF1;;
-    position: fixed;
+    
     padding: 1em;
 }
 
