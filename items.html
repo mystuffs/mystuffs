@@ -8,41 +8,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" href="css/reset.css">-->
     <link rel="stylesheet" href="css/items.css">
-    <!-- <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="">-->
+    <link rel="stylesheet" href="css/main.css"
+    <link rel="stylesheet" href="">
 
   </head>
 
   <body>
+
     <nav class="nav-bar">
-      <ul class="top-nav">
-        <li><a href="#" class="search">Search</a></li>
-        <li><a href="#" class="profile">My Profile</a></li>
-        <li><a href="#" class="messages">My Messages</a></li>
-      </ul>
+        <ul class="top-nav">
+          <li><a href="#" class="search">Search</a></li>
+          <li><a href="#" class="profile">My Profile</a></li>
+          <li><a href="#" class="messages">My Messages</a></li>
+        </ul>
     </nav>
-  
+
     <aside>
-    <ul class="side-nav">
-      <li><a href="#" class="add-item"> Add Item </a></li>
-      <li><a href="#" class="remove-item"> Remove Item </a></li>
-      <li><a href="#"class="my-page"> My Page </a></li>
-      <li><a href="#"class="edit-item"> Edit Item </a></li>
-      <li><a href="#"class="exit"> Exit Dashboard </a></li>
-    </ul>
+        <ul class="side-nav">
+          <li><a href="#" class="add-item"> Add Item </a></li>
+          <li><a href="#" class="remove-item"> Remove Item </a></li>
+          <li><a href="#"class="my-page"> My Page </a></li>
+          <li><a href="#"class="edit-item"> Edit Item </a></li>
+          <li><a href="#"class="exit"> Exit Dashboard </a></li>
+        </ul>
     </aside>
 
     <div class="itemsbar">
         <div class="item">
-            <div class="name">Name</div>
-            <div class="price">Price</div>
-            <div class="location">Location</div>
-            <div class="condition">Condition</div>
-            <div class="category">Category</div>
-            <div class="description">Description</div>
+            <div class="name, gridcoloured">Name</div>
+            <div class="price, gridcoloured">Price</div>
+            <div class="location, gridcoloured">Location</div>
+            <div class="condition, gridcoloured">Condition</div>
+            <div class="category, gridcoloured">Category</div>
+            <div class="description, gridcoloured">Description</div>
         </div>
         <div class="item">
-            <input type="radio" name="items" value="clock">
+            <input type="radio" name="items" value="clock" class="radio">
             <div class="name">Clock</div>
             <div class="price">$25</div>
             <div class="location">Toronto</div>
@@ -51,7 +52,7 @@
             <div class="description">Unique desing and mesmerziing typeface on this beauitful ...</div>
         </div>
         <div class="item">
-            <input type="radio" name="items" value="clock"> 
+            <input type="radio" name="items" value="clock" class="radio"> 
             <div class="name">Clock</div>
             <div class="price">$25</div>
             <div class="location">Toronto</div>
@@ -60,7 +61,7 @@
             <div class="description">Unique desing and mesmerziing typeface on this beauitful ...</div>
         </div>
         <div class="item">
-            <input type="radio" name="items" value="clock"> 
+            <input type="radio" name="items" value="clock" class="radio"> 
             <div class="name">Clock</div>
             <div class="price">$25</div>
             <div class="location">Toronto</div>
@@ -68,6 +69,12 @@
             <div class="category">Antiques</div>
             <div class="description">Unique desing and mesmerziing typeface on this beauitful ...</div>
         </div>
+    </div>
+
+    <div>
+        <button class="deleteitem" type="button">
+          Delete
+        </button>
     </div>
 
 
