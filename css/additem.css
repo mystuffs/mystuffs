@@ -74,8 +74,9 @@ label.active {
 		/* left: 10em; */
 		box-sizing: border-box;
 		padding: 9em;
-		margin-left: 5em;
-		margin-top: 20em;
+		margin-left: 1em;
+		margin-top: 5em;
+		z-index: 600;
 	}
 }
   
