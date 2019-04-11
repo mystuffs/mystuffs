@@ -12,43 +12,50 @@ body {
 	/* top: 10em; */
 	/* left: 10em; */
 	box-sizing: border-box;
-	padding: 9em;
+	padding: 7em;
 	margin-left: 10em;
 	margin-top: 10em;
 }
 
 .adding {
 	display: block;
+	padding-bottom:5em;
 }
+
+
 
 h1 {
 	display: block;
 	position: absolute;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 30px;
 	line-height: normal;
-	color: #279AF1;
-	background-color: lavender;
+	color: white;
+	background-color: #279AF1;
+	
+	
 }
 .field-wrap {
 	position:relative;
 	margin-bottom:2em;
+	
   }
 
 label {
-	position:absolute;
+	display: block;
 	padding: 1em;
 	color: #279AF1;
 	font-size:1em;
 	  }
   
-label.active {
-		left:2px;
-		font-size:1em;
-		
+/* label.active {
+		appearance: none;
+		color: white;
 	  }
-  
+  */
+	
+	  /* this is where they type the info */
   input, textarea {
 	font-size:1em;;
 	display:block;
@@ -56,7 +63,10 @@ label.active {
 	height:100%;
 	padding:1em;
 	border:1px solid #279AF1;
-	color:#000000;
+	color:black;
+	background: transparent;
+	appearance: none;
+	
 
   }
 
@@ -65,13 +75,6 @@ label.active {
 
 	.add-content {
 		display: block;
-		/* width: calc(100% - 10em); */
-		/* height: calc(100% - 10em); */
-		/* padding-left:5em; */
-		/* padding-top:1em; */
-		/* position:fixed; */
-		/* top: 10em; */
-		/* left: 10em; */
 		box-sizing: border-box;
 		padding: 9em;
 		margin-left: 1em;
