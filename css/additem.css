@@ -76,7 +76,7 @@ label {
 	.add-content {
 		display: block;
 		box-sizing: border-box;
-		padding: 9em;
+		padding: 2em;
 		margin-left: 1em;
 		margin-top: 5em;
 		z-index: 600;
