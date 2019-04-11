@@ -7,6 +7,13 @@ html, body {
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
 }
 
+button {
+	background-color: #6C6C6C;
+	color: white;
+	padding: 1em;
+	font-size: 1em;
+
+}
 .nav-bar {
     width: 100%;
     height: 10em;
@@ -34,7 +41,7 @@ ul li {
     display: inline; 
     margin-right: 0px;
     background: #279AF1 ;
-    padding: 1em;
+    
     
 }
 
@@ -46,7 +53,7 @@ aside {
     top: 10em;
     left: 0;
     background: #279AF1;
-    padding: 1em;
+    
     box-sizing: border-box;
 }
 
@@ -54,8 +61,8 @@ aside {
 .side-nav {
     display: block;
     text-align: left;
-    width: 100%;
-       padding: 1em;
+    width: 20%;
+   
 
 }
 nav ul li a{
@@ -67,3 +74,41 @@ nav ul li a:hover{
 }
 
 
+@media screen and (max-width: 700px) {
+
+	
+  
+    .nav-bar {
+        display:inline;
+        width: 100%;
+        height: 5em;
+        padding-top:30px;
+        padding-left:25px;
+        top: 0;
+        left: 0;
+        background: #279AF1;
+        position: fixed;
+        z-index:400;
+        box-sizing: border-box;
+    }
+
+    aside {
+        display: inline;
+        width: 100%;
+        height:5em;  
+        padding-left:25px;
+        top:5em;
+    
+    }
+    
+    .side-nav {
+        
+        display: inline;
+        text-align: right;
+        width: 100%;
+        margin: 1em; 
+        padding: 2em;
+    
+  
+  
+  }

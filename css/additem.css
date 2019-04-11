@@ -2,13 +2,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-button {
-	background-color: #6C6C6C;
-	color: white;
-	padding: 1em;
-	font-size: 1em;
-
-}
 .add-content {
 	display: block;
 	/* width: calc(100% - 10em); */
@@ -65,6 +58,26 @@ label.active {
 	border:1px solid #279AF1;
 	color:#000000;
 
-	
-
   }
+
+
+  @media screen and (max-width: 700px) {
+
+	.add-content {
+		display: block;
+		/* width: calc(100% - 10em); */
+		/* height: calc(100% - 10em); */
+		/* padding-left:5em; */
+		/* padding-top:1em; */
+		/* position:fixed; */
+		/* top: 10em; */
+		/* left: 10em; */
+		box-sizing: border-box;
+		padding: 9em;
+		margin-left: 5em;
+		margin-top: 20em;
+	}
+}
+  
+  }
+  
