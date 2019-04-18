@@ -1,4 +1,7 @@
 const itemspage = document.getElementById(`itemlist`);
+const newitemform = document.getElementById(`add-content`);
+const addItemsButton = document.getElementById(`add-button`);
+
 
 // Array
 let itemList;
@@ -57,3 +60,22 @@ window.addEventListener('load', event => {
     printList();
 
 });
+
+// ADD A NEW ITEM //////////////////////////////////////////////
+// When the form is submit, take the field and add to the list
+addItemsButton.addEventListener('submit', event => {
+
+     // submit form and no refresh page
+    
+    event.preventDefault();
+
+    // Get the text from the field
+    let newitemform = newitemform.item.value;
+ //clear
+    newitemform.item.value = '';
+
+    newitemform.item.focus();
+
+    itemList.push( { id: shoppingList.name, price, location, condition: category, description } );
+});
+//trying to add info into the form and clear form- information in the form should be submitted and generated onto the next page
