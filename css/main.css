@@ -7,6 +7,14 @@ html, body {
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
 }
 
+label {
+    display: block;
+    padding: 1em;
+    color: #279AF1;
+    font-size:em;
+    font-weight: bold;
+      }
+
 button {
 	background-color: #6C6C6C;
 	color: white;
@@ -70,10 +78,28 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color: white;
+	color: green;
 }
 
+.form-radio{
+    display: inline;
+    color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
 
+span {
+    color:#279AF1;
+    display: inline;
+}
+
+      
 @media screen and (max-width: 700px) {
 
 	

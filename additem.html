@@ -64,8 +64,14 @@
         <input type="text"required autocomplete="off"/>
     </div>
     <!--This is button to select shipping options-->
-        <input type="radio" name="shipping"> Shipping Available<br>
-        <input type="radio" name="pickup"> Pickup Only<br>
+    <div class=shipping-button>   
+        <input type="radio" name="shipping" id="radio" class="form-radio" ><span>Shipping Available</span>
+      </div> 
+      <div class=pickup-button>
+        <input type="radio" name="pickup" class="form-radio">
+        <span>Pickup Only</span>
+
+      </div>
     </form>
         
    
@@ -78,7 +84,7 @@
 
     <!--This div is for the section to select condition-->
     <div class="field-wrap">
-        <label>Cateogry<span class="req">*</span></label>
+        <label>Category<span class="req">*</span></label>
         <input type="text"required autocomplete="off"/>
     </div>
   
