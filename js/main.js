@@ -3,30 +3,30 @@ const newitemform = document.getElementById(`add-content`);
 const addItemsButton = document.getElementById(`add-button`);
 
 // testing array use
-const itemList2 = [
-            {name:"Spoon", 
-            price:"Priceless", 
-            location:"Miami", 
-            condition:"Awful", 
-            category:"Kitchen", 
-            description:"Truly amazing, how elegant!"},
+// const itemList2 = [
+//             {name:"Spoon", 
+//             price:"Priceless", 
+//             location:"Miami", 
+//             condition:"Awful", 
+//             category:"Kitchen", 
+//             description:"Truly amazing, how elegant!"},
 
-            {name:"Spoon2", 
-            price:"Priceless", 
-            location:"Miami", 
-            condition:"Awful", 
-            category:"Kitchen", 
-            description:"Truly amazing, how elegant!"},
+//             {name:"Spoon2", 
+//             price:"Priceless", 
+//             location:"Miami", 
+//             condition:"Awful", 
+//             category:"Kitchen", 
+//             description:"Truly amazing, how elegant!"},
 
-            {name:"Spoon3", 
-            price:"Priceless", 
-            location:"Miami", 
-            condition:"Awful", 
-            category:"Kitchen", 
-            description:"Truly amazing, how elegant!"},
-            ];
+//             {name:"Spoon3", 
+//             price:"Priceless", 
+//             location:"Miami", 
+//             condition:"Awful", 
+//             category:"Kitchen", 
+//             description:"Truly amazing, how elegant!"},
+//             ];
 
-localStorage.setItem('myitemlist', JSON.stringify(itemList2));
+// localStorage.setItem('myitemlist', JSON.stringify(itemList2));
 
 var itemList = JSON.parse(localStorage.getItem('myitemlist')) || [];
 
@@ -53,28 +53,6 @@ let printListing = (listing) => {
  printAllEvents();
 
 
-
-// STARTUP THE APPLICATION ///////////////////////////////////////////
-// When the window is loaded, start the application!
-
-
-// ADD A NEW ITEM //////////////////////////////////////////////
-// When the form is submit, take the field and add to the list
-//addItemsButton.addEventListener('submit', event => {
-
-     // submit form and no refresh page
-    
-    //event.preventDefault();
-
-    // Get the text from the field
-   // let newitemform = newitemform.item.value;
- //clear
-   // newitemform.item.value = '';
-
-   // newitemform.item.focus();
-
-    //itemList.push( { id: shoppingList.name, price, location, condition: category, description } );
-//trying to add info into the form and clear form- information in the form should be submitted and generated onto the next page
 
 
 

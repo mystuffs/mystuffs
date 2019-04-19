@@ -39,12 +39,11 @@
 <!--this is the entire section for adding an item-->
 
 <section class="add-content">
-  
   <div class="adding">
     <h1>ADD ITEM</h1>
  </div>
   <!--This div is for the boxes to enter info-->
-    <form id="form-wrapper">
+    <form id="newItem" class="newitem" autocomplete="off">
 
       <!--This div is for the section to add a name of item-->
       <div class="field-wrap">
@@ -58,7 +57,7 @@
     </div>
 
     <!--This div is for the section to select location-->
-    <form action="location-shipping">
+
     <div class="field-wrap">
         <label>Location<span class="req">*</span></label>
         <input type="text" id="location" required autocomplete="off"/>
@@ -72,7 +71,7 @@
         <span>Pickup Only</span>
 
       </div>
-    </form>
+    
         
    
 
@@ -92,9 +91,13 @@
     <div class="field-wrap">
         <label>Description<span class="req">*</span></label>
         <input type="text" id="description" required autocomplete="off"/>
+
+    <div>    
+    <input type="submit" value="Add Item" class="form-component btn">
+    </div>
     </form>
   
-  
+    
   
   
   
