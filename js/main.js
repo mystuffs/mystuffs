@@ -2,7 +2,7 @@ const itemspage = document.getElementById(`itmlst`);
 const newitemform = document.getElementById(`add-content`);
 const addItemsButton = document.getElementById(`add-button`);
 
-// testing array use
+// Testing Array! Commented out, not necessary currently
 // const itemList2 = [
 //             {name:"Spoon", 
 //             price:"Priceless", 
@@ -26,6 +26,8 @@ const addItemsButton = document.getElementById(`add-button`);
 //             description:"Truly amazing, how elegant!"},
 //             ];
 
+
+// This part was when I wasn't sure local storage was working, pretty helpful!
 // localStorage.setItem('myitemlist', JSON.stringify(itemList2));
 
 var itemList = JSON.parse(localStorage.getItem('myitemlist')) || [];
