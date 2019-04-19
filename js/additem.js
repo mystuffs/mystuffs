@@ -1,33 +1,9 @@
-//Add a new item.
-// let itemInput=document.getElementByClass("field-wrap");
+var itemList = JSON.parse(localStorage.getItem('myitemlist')) || [];
 
-// let addButton=document.getElementsByClass("add-button");
+const itmname = document.getElementById(`name`);
+const itmprice = document.getElementById(`price`);
+const itmlocation = document.getElementById(`location`);
+const itmcondition = document.getElementById(`condition`);
+const itmcategory = document.getElementById(`category`);
+const itmdescription = document.getElementById(`description`);
 
-constant newItem = document.getElementsById('form-wrapper');
-
-//Array  
-
-let addItem; 
-
-addItem = [
-    {name:"Spoon", 
-            price:"Priceless", 
-            location:"Miami", 
-            condition:"Awful", 
-            category:"Kitchen", 
-            description:"Truly amazing, how elegant!"},
-
-            {name:"Spoon2", 
-            price:"Priceless", 
-            location:"Miami", 
-            condition:"Awful", 
-            category:"Kitchen", 
-            description:"Truly amazing, how elegant!"},
-
-            {name:"Spoon3", 
-            price:"Priceless", 
-            location:"Miami", 
-            condition:"Awful", 
-            category:"Kitchen", 
-            description:"Truly amazing, how elegant!"},
-];

@@ -3,7 +3,7 @@ const newitemform = document.getElementById(`add-content`);
 const addItemsButton = document.getElementById(`add-button`);
 
 // testing array use
-const itemList = [
+const itemList2 = [
             {name:"Spoon", 
             price:"Priceless", 
             location:"Miami", 
@@ -26,6 +26,10 @@ const itemList = [
             description:"Truly amazing, how elegant!"},
             ];
 
+localStorage.setItem('myitemlist', JSON.stringify(itemList2));
+
+var itemList = JSON.parse(localStorage.getItem('myitemlist')) || [];
+
 
 let printListing = (listing) => {
 
@@ -39,6 +43,7 @@ let printListing = (listing) => {
                 <div class="category">${listing.category}</div>
                 <div class="description">${listing.description}</div>
             </li>`;
+
  }
  
  let printAllEvents = () => {
